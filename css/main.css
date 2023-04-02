@@ -1,12 +1,156 @@
-/* HOME CSS START */
-@import url(../@import/home/nav.css);
+/* FONT LINKS */
+    /* <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;500;600;700;900&display=swap" rel="stylesheet"> */
+/* FONT LINKS */
 
-/* HOME CSS END */
 
 
 
+/* VARIABLES */
+:root{
+    /* COLORS */
+    --primary-bg-color: #014E56;
+    --primary-bg-dark: #012F34;
+    --primary-jungle-color: #004047;
+    --police-dark-blue: #2C6269;
+    --footer-dark-green: #002529;
+    --light-pink: #F67E7E;
+    --light-blue: #79C8C7;
+    --light-white: #fff;
+    --font-family: 'Livvic';
+    /* CONTINER  */
+    --max-width: 1110px
+    /* CONTINER  */
+    
 
-/* ABOUT CSS START */
+}
 
-/* ABOUT CSS END */
+/* NORMALIZE */
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* CONTAINER */
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+
+/* Typography */
+
+/* Headings styles */
+.h1_large_title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--light-white);
+}
+
+.h1_small_title{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    color: var(--light-white);
+}
+
+.h2_title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--light-white);
+}
+
+.h3_title{
+    font-family: 'Livvic';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--light-white);
+}
+/* Headings styles */
+
+/* BUTTONS STYLES */
+
+/* navigation btn */
+.nav_btn_style{
+    padding: 10px 33px;
+    font-family: var(--light-white);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--light-white);
+    border: 2px solid var(--light-white);
+    border-radius: 24px;
+    transition: .3s ease-in;
+}
+
+/* hover */
+.nav_btn_style:hover{
+    background: var(--light-white);
+    transition: .3s ease-out;
+}
+
+/* navigationdan boshqa sectionlardagi btn uchun style */
+/* dark mode btn */
+.dark_btn{
+    padding: 10px 33px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--primary-bg-dark);
+    border: 2px solid var(--primary-bg-dark);
+    border-radius: 24px;
+    transition: .3s ease-in;
+}
+
+/* hover */
+
+.dark_btn:hover{
+    color: var(--light-white);
+    background: var(--primary-bg-dark);
+    transition: .3s ease-out;
+}
+
+
+/* contact qisimdagi button uchun alohida class */
+/* contact btn */
+.contact_btn{
+    padding: 10px 33px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    border: 2px solid var(--light-white);
+    background: var(--light-white);
+    border-radius: 24px;
+    color: var(--footer-dark-green);
+    transition: .3s ease-in;
+}
+
+/* hover */
+.contact_btn:hover{
+    background: var(--light-blue);
+    transition: .3s ease-out;
+}
+
+
+/* BUTTONS STYLES */
+
+
+
 
