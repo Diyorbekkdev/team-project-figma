@@ -1,0 +1,45 @@
+#footer_backround {
+  background: #002529;
+}
+
+.boot {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 125px;
+  padding: 48px 0;
+}
+
+.boot_title {
+  display: flex;
+  gap: 40px;
+  padding: 25px 0 0;
+}
+
+address {
+  max-width: 174px;
+  opacity: 0.6;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  mix-blend-mode: normal;
+  color: var(--light-white);
+  font-family: var(--font-family);
+}
+
+.boot_logo {
+  text-align: end;
+}
+
+.boot_right h1 {
+  padding-top: 51px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: var(--font-family);
+  text-align: right;
+  color: var(--light-white);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
