@@ -1,3 +1,9 @@
+/* IMPORT PART HOME CSS LINKS */
+
+
+/* IMPORT PART ABOUT CSS LINKS */
+@import url(/@import/about/about.css);
+
 /* FONT LINKS */
     /* <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,12 +88,34 @@
 }
 /* Headings styles */
 
+
+/* BODY TEXT */
+.body_text{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--light-white);
+}
+
+.body_small_text{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--light-white);
+}
+/* BODY TEXT */
+
+
+
 /* BUTTONS STYLES */
 
 /* navigation btn */
 .nav_btn_style{
     padding: 10px 33px;
-    font-family: var(--light-white);
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
@@ -99,6 +127,7 @@
 
 /* hover */
 .nav_btn_style:hover{
+    color: #002529;
     background: var(--light-white);
     transition: .3s ease-out;
 }
@@ -147,7 +176,6 @@
     background: var(--light-blue);
     transition: .3s ease-out;
 }
-
 
 /* BUTTONS STYLES */
 
