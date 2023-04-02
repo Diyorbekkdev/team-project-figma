@@ -1,0 +1,88 @@
+
+/* about section */
+.about{
+    position: relative;
+    background: var(--primary-bg-color);
+}
+
+.about img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.about_container{
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    width: 65%;
+}
+
+.about .line{
+    width: 50px;
+    height: 4px;
+    background: var(--light-pink);
+}
+
+
+
+
+/* MEDIA QUARY */
+@media(max-width: 768px){
+    .about_navigation{
+        padding: 64px 40px;
+    }
+
+    .about_container{
+        padding: 0 116px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .line{
+        display: none;
+    }
+
+
+    .about_info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_info h3{
+        margin-top: 24px;
+        margin-bottom: 112px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width: 560px){
+    .about_container{
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 460px){
+
+    .about_container{
+        padding: 0 5px;
+    }
+    .about_info .h3_title{
+        width: 100%;
+        font-size: 20px;
+        padding-bottom: 110px;
+    }
+}

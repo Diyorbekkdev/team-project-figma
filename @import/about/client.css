@@ -1,0 +1,51 @@
+.client{
+    position: relative;
+    background: var(--primary-bg-dark);
+}
+
+.client .left-shape{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.client_container{
+    margin-top: 140px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+.client_container h2{
+    margin-bottom: 64px;
+}
+
+.client {
+    max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/* MEDIA QUARY */
+@media (max-width: 900px){
+    .directors{
+        padding-bottom: 150px;
+
+    }
+
+    
+}
+
+@media (max-width: 760px){
+    .client .left-shape{
+        position: absolute;
+        top: -98px;
+        left: 0;
+        z-index: 0;
+        overflow: hidden;
+    }
+}

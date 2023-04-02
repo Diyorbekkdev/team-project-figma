@@ -16,7 +16,12 @@
 }
 
 .about_left a{
-    
+    transition: .3s ease-in;
+}
+
+.about_left a:hover{
+    color: var(--light-pink);
+    transition: .3s ease-out;
 }
 
 .about_logo{
@@ -28,4 +33,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+}
+
+@media (max-width: 450px){
+    .about_list{
+        display: none;
+    }
+    .cont{
+        display: none;
+    }
 }

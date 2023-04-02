@@ -1,17 +1,24 @@
 /* IMPORT PART HOME CSS LINKS */
-
-
-/* IMPORT PART ABOUT CSS LINKS */
-@import url(/@import/about/about.css);
-
-/* FONT LINKS */
-/* <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;500;600;700;900&display=swap" rel="stylesheet"> */
-/* FONT LINKS */
 @import url(../@import/home/nav.css);
 @import url(../@import/home/first-section.css);
 @import url(../@import/home/second-section.css);
+
+
+
+
+/* IMPORT PART ABOUT CSS LINKS */
+@import url(../@import/about/about_header.css);
+@import url(../@import/about/about_first_section.css);
+@import url(../@import/about/director.css);
+@import url(../@import/about/client.css);
+
+
+
+
+
+
+
+
 
 /* VARIABLES */
 :root {
@@ -110,10 +117,9 @@
 /* BUTTONS STYLES */
 
 /* navigation btn */
-<<<<<<< HEAD
 .nav_btn_style {
   padding: 10px 33px;
-  font-family: var(--light-white);
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -128,25 +134,6 @@
   background: var(--light-white);
   transition: 0.3s ease-out;
   color: var(--light-blue-hover);
-=======
-.nav_btn_style{
-    padding: 10px 33px;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: var(--light-white);
-    border: 2px solid var(--light-white);
-    border-radius: 24px;
-    transition: .3s ease-in;
-}
-
-/* hover */
-.nav_btn_style:hover{
-    color: #002529;
-    background: var(--light-white);
-    transition: .3s ease-out;
->>>>>>> fde0e239996578befba060c76e85d4dd438e979c
 }
 
 /* navigationdan boshqa sectionlardagi btn uchun style */
