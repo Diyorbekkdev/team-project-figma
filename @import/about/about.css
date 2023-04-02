@@ -1,0 +1,31 @@
+.about_header{
+    background: var(--primary-bg-color);
+}
+
+.about_navigation{
+    padding: 73px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_left a{
+    
+}
+
+.about_logo{
+    margin-right: 80px;
+}
+
+.about_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
