@@ -1,0 +1,61 @@
+#third_backround {
+  background-color: #004047;
+  position: relative;
+}
+
+.deliver_title {
+  padding-top: 140px;
+  max-width: 932px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.deliver_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding-top: 56px;
+}
+
+.deliver_icon {
+  margin-bottom: -25px;
+}
+
+.deliver_card h1 {
+  padding: 24px 0 2px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: var(--font-family);
+  text-align: center;
+  color: #79c8c7;
+}
+
+.deliver_card h2 {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: var(--font-family);
+  text-align: center;
+  color: #ffffff;
+}
+
+.personal {
+  padding: 32px 0 151px;
+}
+
+.second_span {
+  color: var(--light-blue);
+}
+
+.third-section-shape-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.third-section-disk-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

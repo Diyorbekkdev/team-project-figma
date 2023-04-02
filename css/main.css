@@ -12,6 +12,7 @@
 @import url(../@import/home/nav.css);
 @import url(../@import/home/first-section.css);
 @import url(../@import/home/second-section.css);
+@import url(../@import/home/third.css);
 
 /* VARIABLES */
 :root {
@@ -110,25 +111,6 @@
 /* BUTTONS STYLES */
 
 /* navigation btn */
-<<<<<<< HEAD
-.nav_btn_style {
-  padding: 10px 33px;
-  font-family: var(--light-white);
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--light-white);
-  border: 2px solid var(--light-white);
-  border-radius: 24px;
-  transition: 0.3s ease-in;
-}
-
-/* hover */
-.nav_btn_style:hover {
-  background: var(--light-white);
-  transition: 0.3s ease-out;
-  color: var(--light-blue-hover);
-=======
 .nav_btn_style{
     padding: 10px 33px;
     font-family: var(--font-family);
@@ -146,7 +128,6 @@
     color: #002529;
     background: var(--light-white);
     transition: .3s ease-out;
->>>>>>> fde0e239996578befba060c76e85d4dd438e979c
 }
 
 /* navigationdan boshqa sectionlardagi btn uchun style */

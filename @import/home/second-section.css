@@ -1,12 +1,12 @@
 #second_backround {
   background-color: #012f34;
+  position: relative;
 }
 
 .build {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding: 140px 0;
-  gap: 125px;
 }
 
 .build_right {
@@ -18,6 +18,16 @@
 
 .build_left img {
   padding-bottom: 54px;
+}
+
+.build_left h1 {
+  max-width: 445px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
 }
 
 .build_box {
@@ -43,4 +53,10 @@
   font-family: var(--font-family);
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+.second-section-disk {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
