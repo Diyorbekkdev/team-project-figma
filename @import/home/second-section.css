@@ -1,0 +1,46 @@
+#second_backround {
+  background-color: #012f34;
+}
+
+.build {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0;
+  gap: 125px;
+}
+
+.build_right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 54px;
+}
+
+.build_left img {
+  padding-bottom: 54px;
+}
+
+.build_box {
+  display: flex;
+  gap: 23px;
+}
+
+.build_box_text h1 {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: var(--font-family);
+  color: #f67e7e;
+}
+
+.build_box_text p {
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+  font-family: var(--font-family);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

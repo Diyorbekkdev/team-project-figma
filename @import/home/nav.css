@@ -1,4 +1,35 @@
-nav {
-    display: flex;
-    justify-content: space-between;
+#backround {
+  background: #014e56;
+  position: relative;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 73px 0 129px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  padding-right: 80px;
+}
+
+.logo a {
+  padding-right: 40px;
+}
+
+.logo a:hover {
+  color: var(--light-pink);
+}
+
+.contact img {
+  display: none;
+}
+
+
+

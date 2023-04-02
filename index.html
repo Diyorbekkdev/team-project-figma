@@ -5,24 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Team</title>
-    <link rel="stylesheet" href="scss/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;500;600;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header id="backround-img">
+    <header id="backround">
       <div class="container">
         <nav>
           <div class="logo">
-            <img src="assets/icons/logo.svg" alt="myteam" />
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-            </ul>
-            <div class="contact">
-                <a href="#">contact</a>
-            </div>
+            <img src="assets/icons/home icons/logo.svg" alt="" />
+            <a class="h3_title" href="#">home</a>
+            <a class="h3_title" href="#">about</a>
+          </div>
+          <div class="contact">
+            <a class="nav_btn_style" href="#">contact us</a>
+            <img src="assets/icons/home icons/burger.svg" alt="" />
           </div>
         </nav>
       </div>
     </header>
+
+    <main>
+      <section id="backround">
+        <img
+          class="disk-left"
+          src="assets/icons/home icons/disk-left.svg"
+          alt=""
+        />
+        <div class="container">
+          <div class="find">
+            <div class="find_left">
+              <h1 class="h1_large_title">Find the best <span>talent</span></h1>
+            </div>
+            <div class="find_right">
+              <img
+                width="50px"
+                height="4px"
+                src="assets/icons/home icons/line.svg"
+                alt=""
+              />
+              <h3 class="h3_title">
+                Finding the right people and building high performing teams can
+                be hard. Most companies aren’t tapping into the abundance of
+                global talent. We’re about to change that.
+              </h3>
+            </div>
+          </div>
+        </div>
+        <img
+          class="disk-bottom"
+          src="assets/icons/home icons/disk-bottom.svg"
+          alt=""
+        />
+      </section>
+
+      <section id="second_backround">
+        <div class="container">
+          <div class="build">
+            <div class="build_left">
+              <img src="assets/icons/home icons/second-line.svg" alt="" />
+              <h1 class="h2_title">Build & manage distributed teams like no one else.</h1>
+            </div>
+            <div class="build_right">
+              <div class="build_box">
+                <img src="assets/icons/home icons/person.svg" alt="" />
+                <div class="build_box_text">
+                  <h1>Experienced Individuals</h1>
+                  <p>
+                    Our network is made up of highly experienced professionals
+                    who are passionate about what they do.
+                  </p>
+                </div>
+              </div>
+              <div class="build_box">
+                <img src="assets/icons/home icons/settings.svg" alt="" />
+                <div class="build_box_text">
+                  <h1>Easy to Implement</h1>
+                  <p>
+                    Our processes have been refined over years of implementation meaning our teams always deliver.
+                  </p>
+                </div>
+              </div>
+              <div class="build_box">
+                <img src="assets/icons/home icons/statistics.svg" alt="" />
+                <div class="build_box_text">
+                  <h1>Enhanced Productivity</h1>
+                  <p>
+                    Our customized platform with in-built analytics helps you manage your distributed teams.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
