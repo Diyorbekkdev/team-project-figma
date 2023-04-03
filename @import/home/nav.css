@@ -29,6 +29,10 @@ nav {
   transition: 0.3s ease-in;
 }
 
+.contact .nav_btn_style:hover {
+  color: var(--light-blue-hover);
+}
+
 .burger {
   display: none;
 }
