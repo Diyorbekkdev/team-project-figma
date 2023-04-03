@@ -209,6 +209,9 @@ address {
   .boot_right {
     padding-top: 16px;
   }
+  .btn-cssbuttons{
+    padding: 16px 57px !important;
+  }
 
   .boot_right h1 {
     text-align: center;
