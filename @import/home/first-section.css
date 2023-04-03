@@ -33,3 +33,17 @@ span {
   right: 120px;
 }
 
+@media (max-width: 900px) {
+  .find {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 250px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1099px) {
+  .disk-left {
+    display: none;
+  }
+}

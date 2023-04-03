@@ -27,9 +27,22 @@ nav {
   color: var(--light-pink);
 }
 
-.contact img {
+.burger {
   display: none;
 }
 
+@media (max-width: 640px) {
+  nav {
+    padding: 73px 20px 129px;
+  }
 
+  .contact {
+    display: none;
+  }
+}
 
+@media (max-width: 900px) {
+  nav {
+    padding: 73px 20px 129px;
+  }
+}
