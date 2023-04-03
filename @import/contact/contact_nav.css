@@ -34,7 +34,19 @@ nav {
 
 @media (max-width: 768px) {
   nav {
-    padding: 73px 20px 129px;
+    padding: 54px 20px 129px;
+  }
+}
+
+@media (max-width: 584px) {
+  .nav_btn_style {
+    padding: 10px 7px !important; 
+  }
+}
+
+@media (max-width: 534px) {
+  .nav_btn_style {
+    display: none;
   }
 }
 

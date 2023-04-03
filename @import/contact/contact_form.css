@@ -70,8 +70,8 @@
   }
 
   .form .bn {
-    width: 100%;
-    margin-bottom: 112px;
+    width: 32%;
+    margin-bottom: 160px;
   }
   .contact_info {
     display: flex;
@@ -80,6 +80,7 @@
 
   .form {
     margin: 0 auto;
+    padding: 0 20px;
   }
 }
 
@@ -104,7 +105,7 @@
     display: none;
   }
   .form .bn {
-    width: 50%;
+    width: 35%;
     margin-bottom: 112px;
   }
   .contact_info {
@@ -113,10 +114,10 @@
   }
 
   .wave-group .input {
-    width: 350px !important;
+    width: 330px !important;
   }
 
   .wave-group .bar {
-    width: 350px !important;
+    width: 330px !important;
   }
 }
