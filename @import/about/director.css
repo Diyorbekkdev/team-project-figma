@@ -1,7 +1,8 @@
+
 .directors{
-    z-index: 1;
-    position: relative;
-    background: var(--primary-jungle-color);
+  position: relative;
+  background: var(--primary-jungle-color);
+  z-index: 1;
 }
 
 .sh_bottom{
@@ -48,7 +49,7 @@
 }
 
 .card h3 + p{
-    display: block;
+    display: inline;
     padding-bottom: 28px;
     color: var(--light-white);
     /* text-transform: initial; */
@@ -107,7 +108,13 @@
     display: none;
   }
 
+  .card svg{
+    transition: .3s ease-in;
+  }
+
   .card svg:hover{
+    transform: translateY(-5px);
+    transition: .3s ease-out;
     fill: var(--light-pink);
   }
 
@@ -215,6 +222,16 @@
         padding-top: 190px;
         font-size: 2.4em;
     }
+
+    .card{
+      width: 350px;
+      /* height: 400px; */
+    }
+
+    .card h3 + p{
+      transform: translateX(-140px);
+  }
+  
 
     
     .card:hover{
