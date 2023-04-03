@@ -197,6 +197,31 @@
   }
 
 
+
+
+
+
+   .clicked {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media quary */
 
 @media (max-width: 900px){
@@ -212,10 +237,23 @@
 }
 
 
+@media (max-width: 584px) {
+  .nav_btn_style {
+    padding: 10px 7px !important; 
+  }
+}
+
+@media (max-width: 534px) {
+  .nav_btn_style {
+    display: none;
+  }
+}
+
+
 @media (max-width: 455px){
     .directors_container{
        /* width: 100%; */
-        padding: 50px 24px;
+        padding: 50px 13px;
         padding-bottom: 150px;
         display: grid;
         grid-template-columns: 1fr;
