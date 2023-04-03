@@ -60,3 +60,51 @@
   right: 0;
   bottom: 0;
 }
+
+@media (max-width: 768px) {
+  .build {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 140px 20px;
+  }
+  .second-section-disk {
+    top: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .second-section-disk {
+    right: 0;
+    top: 0;
+  }
+  .build_left img {
+    padding-bottom: 0px;
+  }
+
+  .build {
+    padding: 64px 24px;
+  }
+
+  .build_left h1 {
+    padding-top: 22px;
+    width: 240px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .build_right {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+  }
+
+  .build_box img {
+    margin: 0 auto;
+  }
+
+  .build_box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

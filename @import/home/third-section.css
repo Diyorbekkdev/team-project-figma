@@ -55,7 +55,48 @@
 }
 
 .third-section-disk-bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .deliver_box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    padding-top: 56px;
+  }
+  .body_small_text {
+    width: 573px;
+    margin: 0 auto;
+  }
+  .h2_title {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .h2_title {
+    font-size: 32px !important;
+    line-height: 32px !important;
+  }
+
+  .deliver_box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .personal {
+    padding: 16px 0 32px;
+  }
+
+  .third {
+    padding-bottom: 164px;
+  }
+
+  .deliver_card p {
+    width: 327px;
+  }
 }

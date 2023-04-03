@@ -49,3 +49,33 @@
   bottom: 0;
   left: 0;
 }
+
+@media (max-width: 768px) {
+  .ready {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 0;
+    align-items: center;
+  }
+  .ready_left h1 {
+    padding-left: 76px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 375px) {
+  .ready {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 83px;
+    padding-bottom: 130px;
+  }
+  .ready_left h1 {
+    padding: 0px 24px 24px;
+  }
+  .ready_right a {
+    margin: 0 0 83px;
+  }
+}
