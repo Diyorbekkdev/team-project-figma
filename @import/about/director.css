@@ -34,7 +34,8 @@
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     text-align: center;
-    overflow: unset;
+    /* overflow: unset; */
+    width: 100%;
 }
 
 .card img{
@@ -47,9 +48,10 @@
 }
 
 .card h3 + p{
+    display: block;
     padding-bottom: 28px;
     color: var(--light-white);
-    text-transform: initial;
+    /* text-transform: initial; */
 }
 
 
@@ -188,6 +190,10 @@
 /* Media quary */
 
 @media (max-width: 900px){
+  .directors{
+    padding-bottom: 150px;
+
+   }
     .directors_container{
         padding: 0 24px;
         display: grid;
@@ -196,13 +202,9 @@
 }
 
 
-.card-back{
-    display: none;
-}
-
-
-@media (max-width: 450px){
+@media (max-width: 455px){
     .directors_container{
+       /* width: 100%; */
         padding: 50px 24px;
         padding-bottom: 150px;
         display: grid;
@@ -217,9 +219,7 @@
     
     .card:hover{
         display: none;
-    }
-
-
-    
+    }   
 }
+
 

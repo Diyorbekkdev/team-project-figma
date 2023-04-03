@@ -31,14 +31,7 @@
 }
 
 /* MEDIA QUARY */
-@media (max-width: 900px){
-    .directors{
-        padding-bottom: 150px;
 
-    }
-
-    
-}
 
 @media (max-width: 760px){
     .client .left-shape{
