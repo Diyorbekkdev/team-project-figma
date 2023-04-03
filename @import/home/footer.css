@@ -74,7 +74,8 @@ address {
   .btn-cssbuttons {
     position: absolute;
     bottom: -40px;
-    left: -25px;
+    left: -42px;
+    padding: 5px 51px !important;
   }
 
   .boot_right h1 {
@@ -93,7 +94,7 @@ address {
   }
 
   .boot_title {
-    display: flex;  
+    display: flex;
     gap: 1px !important;
   }
 
@@ -109,10 +110,11 @@ address {
   }
 
   .btn-cssbuttons {
+    padding: 5px 51px !important;
     position: static;
     margin-bottom: 30px;
     margin-top: -30px;
-    margin-right: 55px;
+    margin-right: 15px;
   }
 
   .boot_right {
