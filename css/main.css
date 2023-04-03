@@ -6,23 +6,17 @@
 @import url(../@import/home/four-section.css);
 @import url(../@import/home/footer.css);
 
-
-
-
-
 /* IMPORT PART ABOUT CSS LINKS */
 @import url(../@import/about/about_header.css);
 @import url(../@import/about/about_first_section.css);
 @import url(../@import/about/director.css);
 @import url(../@import/about/client.css);
 
-
-
-
-
-
-
-
+/* IMPORT PART CONTACT CSS LINKS */
+@import url(../@import/contact/contact_nav.css);
+@import url(../@import/contact/contact_form.css);
+@import url(../@import/contact/form.css);
+@import url(../@import/contact/contact_footer.css);
 
 /* VARIABLES */
 :root {
@@ -96,27 +90,24 @@
 }
 /* Headings styles */
 
-
 /* BODY TEXT */
-.body_text{
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: var(--light-white);
+.body_text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--light-white);
 }
 
-.body_small_text{
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    color: var(--light-white);
+.body_small_text {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--light-white);
 }
 /* BODY TEXT */
-
-
 
 /* BUTTONS STYLES */
 

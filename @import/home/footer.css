@@ -28,7 +28,9 @@ address {
 }
 
 .boot_logo {
-  text-align: end;
+  display: flex;
+  justify-content: end;
+  gap: 16px;
 }
 
 .boot_right h1 {
@@ -42,6 +44,15 @@ address {
   color: var(--light-white);
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+
+.boot_title a {
+  transition: 0.3s ease-in;
+}
+
+.boot_title a:hover {
+  color: var(--light-pink);
+  transition: 0.3s ease-in;
 }
 
 @media (max-width: 768px) {
