@@ -11,18 +11,6 @@ function toggleSidebar() {
 
 
 
-  var showOverlayBtn = document.querySelector('.show-overlay-btn');
-  var overlay = document.querySelector('.overlay');
-  var card = document.querySelector('.card');
-  
-  showOverlayBtn.addEventListener('click', function() {
-    overlay.style.display = 'block';
-    card.style.pointerEvents = 'none';
-  });
-  
-  overlay.addEventListener('click', function() {
-    overlay.style.display = 'none';
-    card.style.pointerEvents = 'auto';
-  });
+
   
   
