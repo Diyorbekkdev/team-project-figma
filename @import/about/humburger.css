@@ -1,0 +1,87 @@
+
+.toogle_container{
+    display: none;
+}
+
+
+@media (max-width: 445px){
+
+    .toogle_container {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 440px;
+        margin: 0 auto;
+    }
+  
+    .menu-btn {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        display: block;
+        font-size: 20px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: auto;
+    }
+    
+    .close-btn {
+        display: none;
+        background: transparent;
+        position: fixed;
+        right: 2px;
+        top: 44px;
+    }
+    
+    .close_btn{
+        filter: invert(1);
+    }
+    
+    .sidebar {
+        z-index: 13;
+        position: fixed;
+        right: -255px;
+    width: 255px;
+    height: 100%;
+    background-color: #2C6269;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar_links{
+      margin: 112px 158px 0 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .sidebar_links a{
+        
+        display: inline-block;
+        text-align: center;
+        margin-top: 24px;
+    }
+    
+    .con_btn{
+        display: inline;
+        width: 170px;
+        transform: translateX(40px);
+    }
+    
+    
+    .main-content {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .sidebar.open {
+        right: 0;
+    }
+    
+    
+    .diss{
+        position: absolute;
+    bottom: 0;
+    right: 0;
+}
+}
+  

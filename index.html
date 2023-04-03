@@ -15,6 +15,22 @@
   </head>
   <body>
     <header id="backround">
+
+       <!-- HUMBURGER START -->
+       <div class="toogle_container">
+        <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+        <div class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()"><img class="close_btn" src="../assets/images/about images/close.svg" width="25px" alt=""></button>
+          <div class="sidebar_links">
+              <a class="h3_title" href="../index.html">home</a>
+              <a class="h3_title" href="#">about</a>
+              <a href="../pages/contact.html" class="con_btn nav_btn_style">contact us</a>
+          </div>
+          <img class="diss" src="../assets/images/about images/right-disk.svg" alt="">
+        </div>
+      </div>
+    <!-- HUMBURGER END -->
+
       <div class="container">
         <nav>
           <div class="logo">
@@ -286,5 +302,9 @@
         </div>
       </div>
     </footer>
+
+
+    <script src="./js/main.js"></script>
+
   </body>
 </html>

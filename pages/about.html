@@ -18,7 +18,31 @@
 </head>
 <body>
 
+
+
+     
+   
+ 
+    
+
+
     <header class="about_header">
+   <!-- HUMBURGER START -->
+        <div class="toogle_container">
+            <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+            <div class="sidebar">
+            <button class="close-btn" onclick="toggleSidebar()"><img class="close_btn" src="../assets/images/about images/close.svg" width="25px" alt=""></button>
+              <div class="sidebar_links">
+                  <a class="h3_title" href="../index.html">home</a>
+                  <a class="h3_title" href="#">about</a>
+                  <a href="../pages/contact.html" class="con_btn nav_btn_style">contact us</a>
+              </div>
+              <img class="diss" src="../assets/images/about images/right-disk.svg" alt="">
+            </div>
+          </div>
+    <!-- HUMBURGER END -->
+          
+
         <div class="container">
             <nav class="about_navigation">
                 <div class="about_left">
@@ -57,8 +81,8 @@
                             <img class="hover" src="../assets/images/about images/director1.svg"  alt="director1">
                             <h3 class="h3_title">Nikita Marks</h3>
                             <p class="body_small_text"> <em>Founder & CEO</em> </p>
-                            <img class="plus" src="../assets/icons/about icons/plus.svg" alt="">
-                            <div class="card-overlay">
+                            <img class="plus show-overlay-btn" src="../assets/icons/about icons/plus.svg" alt="">
+                            <div class="card-overlay overlay">
                                 <h2 class="body_text">Nikita Marks</h2>
                                 <p>“Empowered teams create truly amazing products. Set the north star and let them follow it.”</p>
                                 <ul>
@@ -199,7 +223,7 @@
             </div>
         </section>
         <!-- CLIENTS SECTIIOIN END -->
-        <!-- <section id="four_backround">
+        <section id="four_backround">
             <img
               class="fourth-section-disk"
               src="../assets/icons/home icons/fourth-section-disk.svg"
@@ -211,17 +235,17 @@
                   <h1>Ready to get started?</h1>
                 </div>
                 <div class="ready_right">
-                  <a href="pages/contact.html">contact us</a>
+                  <a href="contact.html">contact us</a>
                 </div>
               </div>
             </div>
-          </section> -->
+          </section>
     </main>
 
 
 
       <!-- FOOTER START -->
-      <!-- <footer id="footer_backround">
+      <footer id="footer_backround">
         <div class="container">
           <div class="boot">
             <div class="boot_left">
@@ -316,9 +340,9 @@
             </div>
           </div>
         </div>
-      </footer> -->
+      </footer>
       <!-- FOOTER END -->
-
-    
+     
+    <script src="../js/main.js"></script>
 </body>
 </html>

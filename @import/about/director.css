@@ -59,7 +59,7 @@
 
 .plus{
     position: absolute;
-    top: 230px;
+    top: 205px;
     right: 145px;
     padding: 20px;
     border-radius: 50%;
@@ -87,6 +87,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 40px;
+    padding-bottom: 440px;
   }
 
   .card-overlay ul li{
@@ -95,6 +96,7 @@
 
   .card-overlay h2{
     display: none;
+    padding-top: -70px;
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 700;
@@ -119,6 +121,7 @@
   }
 
   .card:hover .plus{
+        cursor: pointer;
         background: var(--light-blue);
         transform: rotate(45deg);
   }
@@ -150,7 +153,7 @@
     }
   
   .card-overlay h2 {
-    margin-top: -70px;
+    margin-top: -100px;
   }
   
   .card:hover .card-overlay h2{

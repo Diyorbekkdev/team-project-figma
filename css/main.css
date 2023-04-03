@@ -11,6 +11,7 @@
 @import url(../@import/about/about_first_section.css);
 @import url(../@import/about/director.css);
 @import url(../@import/about/client.css);
+@import url(../@import/about/humburger.css);
 
 /* IMPORT PART CONTACT CSS LINKS */
 @import url(../@import/contact/contact_nav.css);
