@@ -5,6 +5,7 @@
 
 .contact_main {
   padding-bottom: 112px;
+  margin-top: -3px !important;
 }
 
 .contact_text {
@@ -86,10 +87,7 @@
   .left-disk {
     display: none;
   }
-  /* .contact_main {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  } */
+
   .contact_title h1 {
     text-align: center;
     font-size: 40px;
@@ -100,7 +98,7 @@
     line-height: 48px;
   }
   .contact_info img {
-    padding: 0 24px;
+    padding: 0 0 0 24px;
   }
   .disk_right {
     display: none;
@@ -114,8 +112,11 @@
     gap: 23px;
   }
 
-  .form {
-    width: ;
-    margin: 0 auto;
+  .wave-group .input {
+    width: 350px !important;
+  }
+
+  .wave-group .bar {
+    width: 350px !important;
   }
 }
