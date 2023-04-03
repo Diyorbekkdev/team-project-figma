@@ -71,10 +71,10 @@ address {
     right: 40px;
   }
 
-  .boot_logo {
+  .btn-cssbuttons {
     position: absolute;
-    bottom: 24px;
-    left: 40px;
+    bottom: -40px;
+    left: -25px;
   }
 
   .boot_right h1 {
@@ -89,9 +89,12 @@ address {
     position: static;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-    justify-content: center;
-    grid-gap: 24px;
+    grid-gap: 20px;
+  }
+
+  .boot_title {
+    display: flex;  
+    gap: 1px !important;
   }
 
   .boot_left {
@@ -104,9 +107,12 @@ address {
   .boot_center {
     position: static;
   }
-  .boot_logo {
+
+  .btn-cssbuttons {
     position: static;
-    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    margin-right: 55px;
   }
 
   .boot_right {
@@ -115,7 +121,7 @@ address {
 
   .boot_right h1 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 100px;
     position: static !important;
   }
 }

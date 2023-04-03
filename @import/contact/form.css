@@ -87,7 +87,7 @@ button {
   --border-radius: 25px;
   --border-width: 7px;
   appearance: none;
-  position: relative;
+  /* position: relative; */
   padding: 1em 2em;
   border: 0;
   background-color: var(--light-white);

@@ -18,6 +18,9 @@
 @import url(../@import/contact/form.css);
 @import url(../@import/contact/contact_footer.css);
 
+/* ---IMPORT LOADING CSS--- */
+@import url(../@import/home/loading.css);
+
 /* VARIABLES */
 :root {
   /* COLORS */

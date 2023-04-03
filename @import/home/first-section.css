@@ -1,7 +1,8 @@
 .find {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 250px;
+  margin-top: -2px;
+  padding-bottom: 252px;
 }
 
 span {
